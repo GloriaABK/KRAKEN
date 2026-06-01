@@ -73,16 +73,11 @@ The dataset contains Norwegian second-language learner essays annotated with CEF
 ```text
 KRAKEN/
 │
-├── data/                 # Data preparation and processing
-├── prompts/              # Prompt templates
-├── inference/            # Model inference pipelines
-├── experiments/
-│   ├── rq1/              # Prompting experiments
-│   └── rq2/              # Counterfactual fairness experiments
-├── analysis/             # Statistical analyses
-├── figures/              # Generated figures and visualizations
-├── notebooks/            # Exploratory notebooks
-├── results/              # Model outputs and evaluation results
+├── notebooks/
+├── Dataanalysis_Experiment_1_and_Experiment_2.ipynb
+├── EuroLLMAnalysis.ipynb
+├── llama3Analysis.ipynb
+├── NorMistralAnalysis.ipynb
 └── README.md
 ```
 
@@ -114,6 +109,9 @@ The repository contains all code used to:
 - Compute evaluation metrics
 - Perform statistical significance testing
 - Generate figures and tables reported in the thesis
+
+## Data Access
+The experiments in this thesis were conducted using the ASK Corpus (Andrespråkskorpus for norsk), which is distributed under a CLARIN End-User License Agreement and cannot be redistributed through this repository. Researchers wishing to reproduce the experiments must obtain access to the corpus through CLARIN and reconstruct the datasets using the preprocessing and analysis scripts provided in this repository.
 
 ## Citation
 
